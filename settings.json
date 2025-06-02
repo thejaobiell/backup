@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
     "editor.cursorBlinking": "phase",
     "clock.dateFormat": "hh:MM:ss TT",
     "json.schemas": [
@@ -135,7 +135,7 @@
         ".gleam": "gleam run -m $fileNameWithoutExt"
     },
     "code-runner.ignoreSelection": true,
-    "window.newWindowProfile": "Padrão",
     "git.enableSmartCommit": true,
-    "workbench.colorTheme": "Dracula Theme"
+    "workbench.colorTheme": "Dracula Theme",
+    "sqldeveloper.sqlHistory.historyLimit": 500
 }
