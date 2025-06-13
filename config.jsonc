@@ -1,0 +1,69 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "command-raw",
+    "source": "pokemon-colorscripts -n greninja -s | tail -n +2"
+  },
+  "modules": [
+    {
+      "type": "title",
+      "keyWidth": 30,
+      "format": "{user-name-colored}{at-symbol-colored}{host-name-colored}"
+    },
+    {
+      "type": "separator",
+      "string": "---",
+      "outputColor": "blue"
+    },
+    {
+      "type": "os",
+      "key": " ",
+      "format": "{name}"
+    },
+    {
+      "type": "terminal",
+      "key": " ",
+      "format": "{version}"
+    },
+    {
+      "type": "packages",
+      "key": "📦"
+    },
+    {
+      "type": "display",
+      "key": "🖥️ ",
+      "format": "{width}x{height}"
+    },
+    {
+      "type": "memory",
+      "key": "🧮",
+      "format": "{used} / {total} = {percentage}"
+    },
+    {
+      "type": "disk",
+      "key": "💿",
+      "format": "{size-used} / {size-total} = {size-percentage}"
+    },
+    {
+      "type": "uptime",
+      "key": "⌛",
+      "format": "{hours} hora(s) {minutes} minuto(s) {seconds} segundo(s)"
+    },
+    {
+      "type": "media",
+      "key": "󰝚 ",
+      "format": "{combined} - {artist} | {status}"
+    },
+    {
+      "type": "colors"
+    }
+  ],
+  "display": {
+    "color": {
+      "title": "red",
+      "keys": "white",
+      "output": "red",
+      "separator": "blue"
+    }
+  }
+}
