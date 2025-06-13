@@ -12,18 +12,19 @@
     },
     {
       "type": "separator",
-      "string": "---",
-      "outputColor": "blue"
+      "string": "______",
+      "outputColor": "blue",
+      "length": 7
     },
     {
       "type": "os",
       "key": " ",
-      "format": "{name}"
+      "format": "{pretty-name}"
     },
     {
       "type": "terminal",
       "key": " ",
-      "format": "{version}"
+      "format": "{pretty-name}"
     },
     {
       "type": "packages",
@@ -31,7 +32,7 @@
     },
     {
       "type": "display",
-      "key": "🖥️ ",
+      "key": "🖥️",
       "format": "{width}x{height}"
     },
     {
