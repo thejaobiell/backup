@@ -1,0 +1,91 @@
+{
+    "window.zoomLevel": 0.25,
+    "workbench.colorTheme": "Min Dark",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "line",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 16,
+            "y": 12
+        }
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.font.family": "FiraCode Nerd Font Mono",
+    "explorer.fileNesting.enabled": true,
+    "editor.cursorBlinking": "phase",
+    "clock.dateFormat": "hh:MM:ss TT",
+    "editor.wordWrap": "on",
+    "ShortcutMenuBar.findReplace": true,
+    "ShortcutMenuBar.navigateForward": false,
+    "ShortcutMenuBar.navigateBack": false,
+    "ShortcutMenuBar.redo": true,
+    "ShortcutMenuBar.save": true,
+    "ShortcutMenuBar.showCommands": true,
+    "ShortcutMenuBar.toggleWordWrap": true,
+    "ShortcutMenuBar.undo": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#171717",
+        "statusBar.noFolderBackground": "#000000",
+        "statusBar.debuggingBackground": "#000000",
+        "statusBar.foreground": "#FFFFFF",
+        "statusBar.debuggingForeground": "#FFFFFF"
+    },
+    "files.autoSave": "afterDelay",
+    "code-runner.runInTerminal": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "typescript": "ts-node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "python": "python -u",
+        "sql": "cd $dir && sqlite3",
+        "csharp": "dotnet run",
+        "dockerfile": "docker build -t temp_image . && docker run temp_image",
+        "azurecli": "az",
+        "shellscript": "bash"
+    },
+    "code-runner.executorMapByFileExtension": {
+        ".js": "node",
+        ".ts": "ts-node",
+        ".java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        ".py": "python -u",
+        ".sql": "cd $dir && sqlite3",
+        ".cs": "dotnet run",
+        ".sh": "bash",
+        ".dockerfile": "docker build -t temp_image . && docker run temp_image",
+        ".azcli": "az"
+    },
+    "code-runner.ignoreSelection": true,
+    "git.enableSmartCommit": true,
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+    "sqldeveloper.telemetry.enabled": true,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ]
+}
